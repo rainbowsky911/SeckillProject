@@ -12,7 +12,7 @@ import redis.clients.jedis.Jedis;
 public class RedisTest {
     @Test
     public void connect() {
-        Jedis jedis = new Jedis("114.116.255.239",6379,1000);
+        Jedis jedis = new Jedis("127.0.0.1",6379,1000);
         System.out.println(jedis.ping());
     }
 }

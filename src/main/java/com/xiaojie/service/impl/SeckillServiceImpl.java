@@ -94,7 +94,7 @@ public class SeckillServiceImpl implements SeckillService {
      */
     public String createPath(User user, long goodsId) {
         String str = MD5Util.md5(UUIDUtil.uuid() + "987655");
-        redisService.set(SeckillKey.getSeckillPath,""+user.getId()+"_"+goodsId,str,60);
+        redisService.set(SeckillKey.getSeckillPath,""+user.getId()+"_"+goodsId,str,6000000);
         return str;
     }
 

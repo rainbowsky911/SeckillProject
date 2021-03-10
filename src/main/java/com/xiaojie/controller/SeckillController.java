@@ -208,6 +208,7 @@ public class SeckillController implements InitializingBean {
             return Result.error(CodeMsg.USER_NO_LOGIN);
         }
         String path = seckillService.createPath(user, goodsId);
+        System.out.println(path);
         return Result.success(path);
     }
 }

@@ -51,7 +51,7 @@ public class SampleController {
     @RequestMapping("/mqTop")
     @ResponseBody
     public Result sendTop() {
-        sender.sendTopic("top send test");
+        sender.sendTopic("hey jude");
         return Result.success("success");
     }
 }

@@ -41,12 +41,12 @@ public class UserServiceImpl implements UserService {
         if(user == null){
             throw new GlobalException(CodeMsg.MOBILE_NOT_EXIST);
         }
-        String dbPwd= user.getPassword();
+       /* String dbPwd= user.getPassword();
         String saltDB = user.getSalt();
         String calcPass = MD5Util.formPassToDBPass(loginParam.getPassword(), saltDB);
         if(!StringUtils.equals(dbPwd , calcPass)){
             throw new GlobalException(CodeMsg.PASSWORD_ERROR);
-        }
+        }*/
         user.setPassword(StringUtils.EMPTY);
 
         //生成cookie
