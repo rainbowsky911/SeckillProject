@@ -2,6 +2,7 @@ package com.xiaojie.rabbitmq;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * @program: SeckillProject
@@ -9,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @author: Mr.Li
  * @create: 2020-06-03 10:27
  **/
+@SpringBootTest
 public class RabbitMqTest {
     @Autowired
     private MQSender sender;

@@ -1,6 +1,8 @@
 package com.xiaojie.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.xiaojie.dao.GoodsMapper;
+import com.xiaojie.pojo.Goods;
 import com.xiaojie.pojo.GoodsVo;
 import com.xiaojie.pojo.SeckillGoods;
 import com.xiaojie.service.GoodsService;
@@ -15,8 +17,8 @@ import java.util.List;
  * @author: Mr.Li
  * @create: 2020-05-31 09:55
  **/
-@Service
-public class GoodsServiceImpl implements GoodsService {
+@Service("goodsService")
+public class GoodsServiceImpl extends ServiceImpl<GoodsMapper, Goods> implements GoodsService {
     @Autowired
     private GoodsMapper goodsMapper;
 

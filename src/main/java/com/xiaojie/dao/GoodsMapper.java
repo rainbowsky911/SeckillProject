@@ -1,5 +1,7 @@
 package com.xiaojie.dao;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.xiaojie.pojo.Goods;
 import com.xiaojie.pojo.GoodsVo;
 import com.xiaojie.pojo.SeckillGoods;
 import org.apache.ibatis.annotations.Mapper;
@@ -12,7 +14,7 @@ import java.util.List;
 
 @Repository
 @Mapper
-public interface GoodsMapper {
+public interface GoodsMapper extends BaseMapper<Goods> {
     /**
      * 查询所有商品
      * @return
