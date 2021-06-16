@@ -13,134 +13,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaojie/dao/GoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaojie/dao/GoodsMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaojie/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaojie/service/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaojie/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaojie/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaojie/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaojie/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/xiaojie/rabbitmq/RabbitMqTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xiaojie/rabbitmq/RabbitMqTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/xiaojie/redis/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xiaojie/redis/RedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/MainApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/access/AccessInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/access/AccessLimit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/access/UserContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/config/UserArgumentResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/config/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/controller/GoodsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/controller/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/controller/SampleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/controller/SeckillController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/dao/GoodsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/dao/OrderMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/exception/GlobalException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/exception/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/pojo/Goods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/pojo/GoodsDetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/pojo/GoodsVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/pojo/LoginParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/pojo/OrderDetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/pojo/OrderInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/pojo/SeckillGoods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/pojo/SeckillOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/rabbitmq/MQConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/rabbitmq/MQReceiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/rabbitmq/MQSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/rabbitmq/SeckillMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/redis/AccessKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/redis/BasePrefix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/redis/GoodsKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/redis/KeyPrefix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/redis/OrderKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/redis/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/redis/RedisPoolFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/redis/RedisService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/redis/SeckillKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/redis/UserKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/result/CodeMsg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/result/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/service/GoodsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/service/OrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/service/SeckillService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/service/impl/GoodsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/service/impl/OrderServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/service/impl/SeckillServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/utils/DBUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/utils/MD5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/utils/UUIDUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/utils/UserUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/utils/ValidatorUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/validator/IsMobile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaojie/validator/IsMobileValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/detail.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/goods.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/goods_detail.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/back2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/index_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/iphone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/oppo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/rongyao.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/xiaomi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/jquery-validation/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/jquery-validation/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/jquery-validation/localization/messages_zh.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/md5.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/layer/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/layer/mobile/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/layer/mobile/need/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/layer/skin/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/layer/skin/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/layer/skin/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/layer/skin/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/layer/skin/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/layer/skin/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/order_detail.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/goods_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/goods_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/order_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/seckill_fail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seckill-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seckill-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xiaojie.MainApplicationTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xiaojie.rabbitmq.RabbitMqTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xiaojie.redis.RedisTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.xiaojie.MainApplicationTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.xiaojie.rabbitmq.RabbitMqTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.xiaojie.redis.RedisTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xiaojie/MainApplicationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xiaojie/rabbitmq/RabbitMqTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xiaojie/redis/RedisTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +59,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -356,8 +232,9 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="MyBatisLogPluginindexNum" value="2" />
+    <property name="MyBatisLogPluginindexNum" value="10" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -369,14 +246,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591201075822" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mybatis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.sjhy.plugin.ui.TypeMapperSetting" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -398,7 +275,7 @@
       <command value="toollkit" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GoodTest.testQuery">
+  <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -406,62 +283,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoodTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeckillProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaojie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xiaojie" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaojie.GoodTest" />
-      <option name="METHOD_NAME" value="testQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RabbitMqTest.sendMsg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeckillProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaojie.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xiaojie.rabbitmq" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaojie.rabbitmq.RabbitMqTest" />
-      <option name="METHOD_NAME" value="sendMsg" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisTest.connect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeckillProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaojie.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xiaojie.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaojie.redis.RedisTest" />
-      <option name="METHOD_NAME" value="connect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaojie.MainApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -481,9 +302,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GoodTest.testQuery" />
-        <item itemvalue="JUnit.RabbitMqTest.sendMsg" />
-        <item itemvalue="JUnit.RedisTest.connect" />
         <item itemvalue="Spring Boot.MainApplication" />
       </list>
     </recent_temporary>
@@ -510,7 +328,7 @@
       <workItem from="1615365937985" duration="432000" />
       <workItem from="1615366384717" duration="1378000" />
       <workItem from="1615999843885" duration="19000" />
-      <workItem from="1623753253098" duration="4663000" />
+      <workItem from="1623753253098" duration="24320000" />
     </task>
     <task id="LOCAL-00001" summary="秒杀基本逻辑业务完成">
       <created>1591017565645</created>
@@ -526,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615344135942</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update:update  sonethings">
+      <created>1623773186698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623773186698</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -623,7 +448,8 @@
     <MESSAGE value="秒杀业务逻辑完成" />
     <MESSAGE value="秒杀基本逻辑业务完成" />
     <MESSAGE value="调试3.0MQ秒杀代码;修改秒杀地址path过期时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="调试3.0MQ秒杀代码;修改秒杀地址path过期时间" />
+    <MESSAGE value="update:update  sonethings" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:update  sonethings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -715,8 +541,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/xiaojie/rabbitmq/RabbitMqTest.java</url>
-          <line>22</line>
+          <line>20</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xiaojie/dao/GoodsMapper.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

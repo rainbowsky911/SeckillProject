@@ -1,6 +1,5 @@
 package com.xiaojie.controller;
 
-import com.xiaojie.pojo.Goods;
 import com.xiaojie.pojo.GoodsDetail;
 import com.xiaojie.pojo.GoodsVo;
 import com.xiaojie.pojo.User;
@@ -182,12 +181,4 @@ public class GoodsController {
 
         return Result.success(detail);
     }
-
-    @RequestMapping("/{id}")
-    @ResponseBody
-    public Result<Goods> queryById(@PathVariable("id")Long id){
-        Goods goods = goodsService.getById(1);
-        return Result.success(goods);
-    }
-
 }

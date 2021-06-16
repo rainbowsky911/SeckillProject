@@ -72,7 +72,7 @@ public class OrderServiceImpl implements OrderService {
         orderMapper.insertSeckillOrder(seckillOrder);
 
         //把订单放入缓存,过期时间1小时
-        redisService.set(OrderKey.getOrderByUidOid,""+user.getId() + "_"+goods.getId(),seckillOrder,3600);
+        redisService.set(OrderKey.getOrderByUidOid,""+user.getId() + "_"+goods.getId(),seckillOrder,360000);
         return orderInfo;
     }
 

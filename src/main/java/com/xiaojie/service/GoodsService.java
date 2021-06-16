@@ -1,12 +1,10 @@
 package com.xiaojie.service;
 
-import com.baomidou.mybatisplus.extension.service.IService;
-import com.xiaojie.pojo.Goods;
 import com.xiaojie.pojo.GoodsVo;
 
 import java.util.List;
 
-public interface GoodsService extends IService<Goods> {
+public interface GoodsService {
 
     /**
      * 查询秒杀商品列表

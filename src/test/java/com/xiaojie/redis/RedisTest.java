@@ -1,7 +1,6 @@
 package com.xiaojie.redis;
 
 import org.junit.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 import redis.clients.jedis.Jedis;
 
 /**
@@ -10,7 +9,6 @@ import redis.clients.jedis.Jedis;
  * @author: Mr.Li
  * @create: 2020-05-29 18:08
  **/
-@SpringBootTest
 public class RedisTest {
     @Test
     public void connect() {
